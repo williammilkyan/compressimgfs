@@ -1,0 +1,27 @@
+{
+   "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "strict": true
+   },
+   "tsc-alias": {
+      "resolveFullPaths": true,
+      "verbose": false
+    },
+   "include": ["src/**/*.ts"]
+}
+/*
+"lib": [
+         "es5",
+         "es6"
+      ],
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+
+*/
